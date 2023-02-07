@@ -1,0 +1,79 @@
+/* Boiler plate */
+
+body {
+    background-color: #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+/* header */
+pre {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+
+.Header-thing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Banner */
+.Banners {
+    width: 100%;
+    height: 10px;
+}
+
+.Blue {
+    background-color: #1793d1;
+}
+
+.Grey {
+    background-color: #8BC8E6;
+}
+
+.Purple {
+    background-color: #FFFFFF;
+}
+
+/* RSS */
+#rss-feed {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    display: inline;
+    font-family: monospace;
+}
+
+li.main-list {
+    display: block;
+    font-family: monospace;
+}
+
+/* Me */
+img {
+    width: 100%;
+}
+
+/* Description */
+p {
+    font-family: monospace;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
